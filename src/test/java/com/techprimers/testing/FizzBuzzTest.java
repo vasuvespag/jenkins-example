@@ -43,6 +43,7 @@ class FizzBuzzTest {
 
     @AfterEach
     public void tearDown() {
+        System.out.println("Another Line Added");
         fB = null;
     }
 
