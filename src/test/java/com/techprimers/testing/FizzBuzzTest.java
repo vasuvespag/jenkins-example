@@ -8,6 +8,7 @@ class FizzBuzzTest {
 
     @BeforeEach
     public void setUp() {
+        System.out.println("Print before each method. Triggering auto build in Jenkins");
         fB = new FizzBuzz();
     }
 
